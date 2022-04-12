@@ -1,0 +1,2 @@
+telebot==0.0.4
+TelegramBotAPI==0.3.2

@@ -3,8 +3,13 @@
 import telebot
 from telebot import types
 import config
-cont tt  = "5232363147:AAGGyuWRNpPym7otVbr75fAIrSxVQJs0NEM"
+<<<<<<< HEAD
+const tt  = "5232363147:AAGGyuWRNpPym7otVbr75fAIrSxVQJs0NEM"
 bot = telebot.TeleBot(tt)
+=======
+
+bot = telebot.TeleBot(config.TOKEN)
+>>>>>>> 5d5518f (first commit)
 
 
 @bot.message_handler(content_types=['text'])

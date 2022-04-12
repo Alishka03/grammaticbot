@@ -3,8 +3,8 @@
 import telebot
 from telebot import types
 import config
-
-bot = telebot.TeleBot(config.TOKEN)
+cont tt  = "5232363147:AAGGyuWRNpPym7otVbr75fAIrSxVQJs0NEM"
+bot = telebot.TeleBot(tt)
 
 
 @bot.message_handler(content_types=['text'])
